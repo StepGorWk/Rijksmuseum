@@ -22,6 +22,8 @@ The following dependencies are used in this project:
 . SDWebImage: Library for asynchronous image downloading and caching.
 All dependencies are managed using Swift Package Manager.
 
+. Swinject: As Service Locator
+
 # API Key
 
 To use the Rijksmuseum API, you need to obtain an API key.
