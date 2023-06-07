@@ -4,6 +4,7 @@ The Rijksmuseum Swift project is a mobile application that allows users to explo
 # Features
 
 . Browse artworks 
+
 . View detailed information and images of each artwork
 
 # Installation
@@ -17,12 +18,14 @@ The Rijksmuseum Swift project is a mobile application that allows users to explo
 The following dependencies are used in this project:
 
 . SnapKit: Make Auto Layout easy.
+
 . SDWebImage: Library for asynchronous image downloading and caching.
 All dependencies are managed using Swift Package Manager.
 
 # API Key
 
-To use the Rijksmuseum API, you need to obtain an API key. Follow these steps to add your API key to the project:
+To use the Rijksmuseum API, you need to obtain an API key.
+Follow these steps to add your API key to the project:
 
 Open the APIKey.swift file.
 Replace the value of apiKey with your Rijksmuseum API key.
