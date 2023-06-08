@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "AAF7E1B2-A6A9-4C6A-B836-858CB2E6D453"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3EC797AD-1F11-4189-BE48-14E1D69F09C0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Rijksmuseum/Extensions/Encodable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "queryItems()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C2B3EFC7-5092-4246-ABA9-9803C61BF7C9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Rijksmuseum/Scenes/GalleryCollection/Implementation/RMGalleryCollectionInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "fetchNextPage()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C968F4C4-F79C-4404-99EA-2242B780AF74"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Rijksmuseum/Scenes/GalleryCollection/Implementation/RMGalleryCollectionInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "getArtModels(request:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C968F4C4-F79C-4404-99EA-2242B780AF74 - 9deca8aa60976645"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Rijksmuseum.RMGalleryCollectionModel, Swift.Error&gt;) -&gt; () in Rijksmuseum.RMGalleryCollectionInteractor.getArtModels(request: Rijksmuseum.RMPaginationRequest) -&gt; ()"
+                  moduleName = "Rijksmuseum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Gor_Stepanyan/Documents/GitHub/Rijksmuseum/Rijksmuseum/Scenes/GalleryCollection/Implementation/RMGalleryCollectionInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "514">
+               </Location>
+               <Location
+                  uuid = "C968F4C4-F79C-4404-99EA-2242B780AF74 - 9deca8aa60976645"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Rijksmuseum.RMGalleryCollectionModel, Swift.Error&gt;) -&gt; () in Rijksmuseum.RMGalleryCollectionInteractor.getArtModels(request: Rijksmuseum.RMPaginationRequest) -&gt; ()"
+                  moduleName = "Rijksmuseum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Gor_Stepanyan/Documents/GitHub/Rijksmuseum/Rijksmuseum/Scenes/GalleryCollection/Implementation/RMGalleryCollectionInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "321">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AC65F804-5275-4EF8-A8DE-E0B607A7139E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Rijksmuseum/Scenes/GalleryCollection/Implementation/RMGalleryCollectionInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "getArtModels(request:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

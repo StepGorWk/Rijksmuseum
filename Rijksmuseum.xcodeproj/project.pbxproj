@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		63E11FB82A3083AE00137678 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E11FB72A3083AE00137678 /* AppDelegate.swift */; };
 		63E11FBA2A3083AE00137678 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E11FB92A3083AE00137678 /* SceneDelegate.swift */; };
-		63E11FBC2A3083AE00137678 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E11FBB2A3083AE00137678 /* ViewController.swift */; };
+		63E11FBC2A3083AE00137678 /* RMGalleryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E11FBB2A3083AE00137678 /* RMGalleryCollectionViewController.swift */; };
 		63E11FC12A3083B000137678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E11FC02A3083B000137678 /* Assets.xcassets */; };
 		63E11FC42A3083B000137678 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E11FC22A3083B000137678 /* LaunchScreen.storyboard */; };
 		63E11FCF2A3083B000137678 /* RijksmuseumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E11FCE2A3083B000137678 /* RijksmuseumTests.swift */; };
@@ -17,6 +17,32 @@
 		63E11FDB2A3083B000137678 /* RijksmuseumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E11FDA2A3083B000137678 /* RijksmuseumUITestsLaunchTests.swift */; };
 		63E11FE92A30894D00137678 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 63E11FE82A30894D00137678 /* SDWebImage */; };
 		63E11FEC2A30897200137678 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 63E11FEB2A30897200137678 /* SnapKit */; };
+		63E11FEF2A309AA100137678 /* UICollor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E11FEE2A309AA100137678 /* UICollor.swift */; };
+		63E11FF42A30A08400137678 /* URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E11FF32A30A08400137678 /* URLSession.swift */; };
+		63E11FF72A30A19500137678 /* BaseNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E11FF62A30A19500137678 /* BaseNetworkManager.swift */; };
+		63E11FF92A30A1CE00137678 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E11FF82A30A1CE00137678 /* Endpoint.swift */; };
+		63E11FFB2A30A5C500137678 /* ServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E11FFA2A30A5C500137678 /* ServiceLocator.swift */; };
+		63E11FFE2A30A6AD00137678 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 63E11FFD2A30A6AD00137678 /* Swinject */; };
+		63E120012A30A6F000137678 /* SwinjectAutoregistration in Frameworks */ = {isa = PBXBuildFile; productRef = 63E120002A30A6F000137678 /* SwinjectAutoregistration */; };
+		63E120042A30B31500137678 /* RMGalleryCollectionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E120032A30B31500137678 /* RMGalleryCollectionRouter.swift */; };
+		63E120062A30B33900137678 /* RMGalleryCollectionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E120052A30B33900137678 /* RMGalleryCollectionInteractor.swift */; };
+		63E120082A30B3D500137678 /* RMGalleryCollectionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E120072A30B3D500137678 /* RMGalleryCollectionPresenter.swift */; };
+		63E1200C2A30B75C00137678 /* RMGalleryCollectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E1200B2A30B75C00137678 /* RMGalleryCollectionModel.swift */; };
+		63E120102A30D09800137678 /* RMGalleryCollectionViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E1200F2A30D09800137678 /* RMGalleryCollectionViewProtocol.swift */; };
+		63E120122A30D0BA00137678 /* RMGalleryCollectionRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E120112A30D0BA00137678 /* RMGalleryCollectionRouterProtocol.swift */; };
+		63E120142A30D21300137678 /* RMGalleryCollectionInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E120132A30D21300137678 /* RMGalleryCollectionInteractorProtocol.swift */; };
+		63E120162A30D29000137678 /* RMGalleryCollectionPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E120152A30D29000137678 /* RMGalleryCollectionPresenterProtocol.swift */; };
+		63E1201A2A30D4D200137678 /* RMGalleryCollectionFetchServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E120192A30D4D200137678 /* RMGalleryCollectionFetchServiceProtocol.swift */; };
+		63E1201C2A30D4EA00137678 /* RMGalleryCollectionFetchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E1201B2A30D4EA00137678 /* RMGalleryCollectionFetchService.swift */; };
+		63E120202A30D75000137678 /* RMBaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E1201F2A30D75000137678 /* RMBaseRequest.swift */; };
+		63E120222A30D7AA00137678 /* ServiceLocatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E120212A30D7AA00137678 /* ServiceLocatorProtocol.swift */; };
+		63E120272A30D8CA00137678 /* RMPaginationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E120262A30D8CA00137678 /* RMPaginationRequest.swift */; };
+		63E1202A2A3105AC00137678 /* RMPaginationInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E120292A3105AC00137678 /* RMPaginationInteractorProtocol.swift */; };
+		63E1202C2A31060000137678 /* RMPaginationPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E1202B2A31060000137678 /* RMPaginationPresenterProtocol.swift */; };
+		63E1202E2A310DD300137678 /* RMPaginationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E1202D2A310DD300137678 /* RMPaginationInteractor.swift */; };
+		63E120302A31B72500137678 /* RMBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E1202F2A31B72500137678 /* RMBaseNavigationController.swift */; };
+		63E120322A31BA1700137678 /* RMBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E120312A31BA1700137678 /* RMBaseViewController.swift */; };
+		63E1203D2A3204A300137678 /* RMGalleryItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E1203C2A3204A300137678 /* RMGalleryItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +66,7 @@
 		63E11FB42A3083AE00137678 /* Rijksmuseum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rijksmuseum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E11FB72A3083AE00137678 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63E11FB92A3083AE00137678 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		63E11FBB2A3083AE00137678 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63E11FBB2A3083AE00137678 /* RMGalleryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGalleryCollectionViewController.swift; sourceTree = "<group>"; };
 		63E11FC02A3083B000137678 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63E11FC32A3083B000137678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63E11FC52A3083B000137678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +75,30 @@
 		63E11FD42A3083B000137678 /* RijksmuseumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RijksmuseumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E11FD82A3083B000137678 /* RijksmuseumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RijksmuseumUITests.swift; sourceTree = "<group>"; };
 		63E11FDA2A3083B000137678 /* RijksmuseumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RijksmuseumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		63E11FEE2A309AA100137678 /* UICollor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollor.swift; sourceTree = "<group>"; };
+		63E11FF32A30A08400137678 /* URLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSession.swift; sourceTree = "<group>"; };
+		63E11FF62A30A19500137678 /* BaseNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNetworkManager.swift; sourceTree = "<group>"; };
+		63E11FF82A30A1CE00137678 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		63E11FFA2A30A5C500137678 /* ServiceLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLocator.swift; sourceTree = "<group>"; };
+		63E120032A30B31500137678 /* RMGalleryCollectionRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGalleryCollectionRouter.swift; sourceTree = "<group>"; };
+		63E120052A30B33900137678 /* RMGalleryCollectionInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGalleryCollectionInteractor.swift; sourceTree = "<group>"; };
+		63E120072A30B3D500137678 /* RMGalleryCollectionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGalleryCollectionPresenter.swift; sourceTree = "<group>"; };
+		63E1200B2A30B75C00137678 /* RMGalleryCollectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGalleryCollectionModel.swift; sourceTree = "<group>"; };
+		63E1200F2A30D09800137678 /* RMGalleryCollectionViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGalleryCollectionViewProtocol.swift; sourceTree = "<group>"; };
+		63E120112A30D0BA00137678 /* RMGalleryCollectionRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGalleryCollectionRouterProtocol.swift; sourceTree = "<group>"; };
+		63E120132A30D21300137678 /* RMGalleryCollectionInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGalleryCollectionInteractorProtocol.swift; sourceTree = "<group>"; };
+		63E120152A30D29000137678 /* RMGalleryCollectionPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGalleryCollectionPresenterProtocol.swift; sourceTree = "<group>"; };
+		63E120192A30D4D200137678 /* RMGalleryCollectionFetchServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGalleryCollectionFetchServiceProtocol.swift; sourceTree = "<group>"; };
+		63E1201B2A30D4EA00137678 /* RMGalleryCollectionFetchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGalleryCollectionFetchService.swift; sourceTree = "<group>"; };
+		63E1201F2A30D75000137678 /* RMBaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMBaseRequest.swift; sourceTree = "<group>"; };
+		63E120212A30D7AA00137678 /* ServiceLocatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLocatorProtocol.swift; sourceTree = "<group>"; };
+		63E120262A30D8CA00137678 /* RMPaginationRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMPaginationRequest.swift; sourceTree = "<group>"; };
+		63E120292A3105AC00137678 /* RMPaginationInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMPaginationInteractorProtocol.swift; sourceTree = "<group>"; };
+		63E1202B2A31060000137678 /* RMPaginationPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMPaginationPresenterProtocol.swift; sourceTree = "<group>"; };
+		63E1202D2A310DD300137678 /* RMPaginationInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMPaginationInteractor.swift; sourceTree = "<group>"; };
+		63E1202F2A31B72500137678 /* RMBaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMBaseNavigationController.swift; sourceTree = "<group>"; };
+		63E120312A31BA1700137678 /* RMBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMBaseViewController.swift; sourceTree = "<group>"; };
+		63E1203C2A3204A300137678 /* RMGalleryItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGalleryItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +108,8 @@
 			files = (
 				63E11FE92A30894D00137678 /* SDWebImage in Frameworks */,
 				63E11FEC2A30897200137678 /* SnapKit in Frameworks */,
+				63E11FFE2A30A6AD00137678 /* Swinject in Frameworks */,
+				63E120012A30A6F000137678 /* SwinjectAutoregistration in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +155,10 @@
 			children = (
 				63E11FB72A3083AE00137678 /* AppDelegate.swift */,
 				63E11FB92A3083AE00137678 /* SceneDelegate.swift */,
-				63E11FBB2A3083AE00137678 /* ViewController.swift */,
+				63E11FF02A309FA000137678 /* Scenes */,
+				63E11FF12A309FC200137678 /* Services */,
+				63E11FF22A30A03400137678 /* Common */,
+				63E11FED2A309A8100137678 /* Extensions */,
 				63E11FC02A3083B000137678 /* Assets.xcassets */,
 				63E11FC22A3083B000137678 /* LaunchScreen.storyboard */,
 				63E11FC52A3083B000137678 /* Info.plist */,
@@ -128,6 +183,163 @@
 			path = RijksmuseumUITests;
 			sourceTree = "<group>";
 		};
+		63E11FED2A309A8100137678 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				63E11FEE2A309AA100137678 /* UICollor.swift */,
+				63E11FF32A30A08400137678 /* URLSession.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		63E11FF02A309FA000137678 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				63E120362A31FE7D00137678 /* RMGalleryItemDitail */,
+				63E120022A30B2D900137678 /* GalleryCollection */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		63E11FF12A309FC200137678 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				63E120252A30D88B00137678 /* Requests */,
+				63E120232A30D81700137678 /* Locator */,
+				63E120242A30D84800137678 /* GalleryCollection */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		63E11FF22A30A03400137678 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				63E1202F2A31B72500137678 /* RMBaseNavigationController.swift */,
+				63E120312A31BA1700137678 /* RMBaseViewController.swift */,
+				63E120282A31056300137678 /* Pagination */,
+				63E11FF52A30A16300137678 /* Networking */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		63E11FF52A30A16300137678 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				63E11FF62A30A19500137678 /* BaseNetworkManager.swift */,
+				63E11FF82A30A1CE00137678 /* Endpoint.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		63E120022A30B2D900137678 /* GalleryCollection */ = {
+			isa = PBXGroup;
+			children = (
+				63E1200E2A30D01200137678 /* Implementation */,
+				63E1200D2A30D00800137678 /* Interface */,
+			);
+			path = GalleryCollection;
+			sourceTree = "<group>";
+		};
+		63E1200D2A30D00800137678 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				63E1200F2A30D09800137678 /* RMGalleryCollectionViewProtocol.swift */,
+				63E120112A30D0BA00137678 /* RMGalleryCollectionRouterProtocol.swift */,
+				63E120132A30D21300137678 /* RMGalleryCollectionInteractorProtocol.swift */,
+				63E120152A30D29000137678 /* RMGalleryCollectionPresenterProtocol.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		63E1200E2A30D01200137678 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				63E1203C2A3204A300137678 /* RMGalleryItemCell.swift */,
+				63E11FBB2A3083AE00137678 /* RMGalleryCollectionViewController.swift */,
+				63E120032A30B31500137678 /* RMGalleryCollectionRouter.swift */,
+				63E120052A30B33900137678 /* RMGalleryCollectionInteractor.swift */,
+				63E120072A30B3D500137678 /* RMGalleryCollectionPresenter.swift */,
+				63E1200B2A30B75C00137678 /* RMGalleryCollectionModel.swift */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		63E120172A30D3B800137678 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				63E120192A30D4D200137678 /* RMGalleryCollectionFetchServiceProtocol.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		63E120182A30D3C900137678 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				63E1201B2A30D4EA00137678 /* RMGalleryCollectionFetchService.swift */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		63E120232A30D81700137678 /* Locator */ = {
+			isa = PBXGroup;
+			children = (
+				63E11FFA2A30A5C500137678 /* ServiceLocator.swift */,
+				63E120212A30D7AA00137678 /* ServiceLocatorProtocol.swift */,
+			);
+			path = Locator;
+			sourceTree = "<group>";
+		};
+		63E120242A30D84800137678 /* GalleryCollection */ = {
+			isa = PBXGroup;
+			children = (
+				63E120172A30D3B800137678 /* Interface */,
+				63E120182A30D3C900137678 /* Implementation */,
+			);
+			path = GalleryCollection;
+			sourceTree = "<group>";
+		};
+		63E120252A30D88B00137678 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				63E1201F2A30D75000137678 /* RMBaseRequest.swift */,
+				63E120262A30D8CA00137678 /* RMPaginationRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		63E120282A31056300137678 /* Pagination */ = {
+			isa = PBXGroup;
+			children = (
+				63E120292A3105AC00137678 /* RMPaginationInteractorProtocol.swift */,
+				63E1202B2A31060000137678 /* RMPaginationPresenterProtocol.swift */,
+				63E1202D2A310DD300137678 /* RMPaginationInteractor.swift */,
+			);
+			path = Pagination;
+			sourceTree = "<group>";
+		};
+		63E120362A31FE7D00137678 /* RMGalleryItemDitail */ = {
+			isa = PBXGroup;
+			children = (
+				63E120382A31FEB800137678 /* Implementation */,
+				63E120372A31FEB000137678 /* Interface */,
+			);
+			path = RMGalleryItemDitail;
+			sourceTree = "<group>";
+		};
+		63E120372A31FEB000137678 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		63E120382A31FEB800137678 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,6 +359,8 @@
 			packageProductDependencies = (
 				63E11FE82A30894D00137678 /* SDWebImage */,
 				63E11FEB2A30897200137678 /* SnapKit */,
+				63E11FFD2A30A6AD00137678 /* Swinject */,
+				63E120002A30A6F000137678 /* SwinjectAutoregistration */,
 			);
 			productName = Rijksmuseum;
 			productReference = 63E11FB42A3083AE00137678 /* Rijksmuseum.app */;
@@ -223,6 +437,8 @@
 			packageReferences = (
 				63E11FE72A30894D00137678 /* XCRemoteSwiftPackageReference "SDWebImage" */,
 				63E11FEA2A30897200137678 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				63E11FFC2A30A6AD00137678 /* XCRemoteSwiftPackageReference "Swinject" */,
+				63E11FFF2A30A6F000137678 /* XCRemoteSwiftPackageReference "SwinjectAutoregistration" */,
 			);
 			productRefGroup = 63E11FB52A3083AE00137678 /* Products */;
 			projectDirPath = "";
@@ -266,9 +482,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63E11FBC2A3083AE00137678 /* ViewController.swift in Sources */,
+				63E11FF92A30A1CE00137678 /* Endpoint.swift in Sources */,
+				63E11FBC2A3083AE00137678 /* RMGalleryCollectionViewController.swift in Sources */,
+				63E120102A30D09800137678 /* RMGalleryCollectionViewProtocol.swift in Sources */,
+				63E11FF72A30A19500137678 /* BaseNetworkManager.swift in Sources */,
 				63E11FB82A3083AE00137678 /* AppDelegate.swift in Sources */,
+				63E120042A30B31500137678 /* RMGalleryCollectionRouter.swift in Sources */,
+				63E11FFB2A30A5C500137678 /* ServiceLocator.swift in Sources */,
+				63E11FF42A30A08400137678 /* URLSession.swift in Sources */,
+				63E120142A30D21300137678 /* RMGalleryCollectionInteractorProtocol.swift in Sources */,
+				63E120202A30D75000137678 /* RMBaseRequest.swift in Sources */,
+				63E120302A31B72500137678 /* RMBaseNavigationController.swift in Sources */,
+				63E120222A30D7AA00137678 /* ServiceLocatorProtocol.swift in Sources */,
+				63E120122A30D0BA00137678 /* RMGalleryCollectionRouterProtocol.swift in Sources */,
+				63E120272A30D8CA00137678 /* RMPaginationRequest.swift in Sources */,
+				63E120162A30D29000137678 /* RMGalleryCollectionPresenterProtocol.swift in Sources */,
+				63E11FEF2A309AA100137678 /* UICollor.swift in Sources */,
+				63E120322A31BA1700137678 /* RMBaseViewController.swift in Sources */,
+				63E1202A2A3105AC00137678 /* RMPaginationInteractorProtocol.swift in Sources */,
+				63E1201C2A30D4EA00137678 /* RMGalleryCollectionFetchService.swift in Sources */,
+				63E1201A2A30D4D200137678 /* RMGalleryCollectionFetchServiceProtocol.swift in Sources */,
+				63E1202C2A31060000137678 /* RMPaginationPresenterProtocol.swift in Sources */,
+				63E1202E2A310DD300137678 /* RMPaginationInteractor.swift in Sources */,
+				63E1200C2A30B75C00137678 /* RMGalleryCollectionModel.swift in Sources */,
+				63E1203D2A3204A300137678 /* RMGalleryItemCell.swift in Sources */,
+				63E120062A30B33900137678 /* RMGalleryCollectionInteractor.swift in Sources */,
 				63E11FBA2A3083AE00137678 /* SceneDelegate.swift in Sources */,
+				63E120082A30B3D500137678 /* RMGalleryCollectionPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -620,6 +860,22 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		63E11FFC2A30A6AD00137678 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		63E11FFF2A30A6F000137678 /* XCRemoteSwiftPackageReference "SwinjectAutoregistration" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/SwinjectAutoregistration";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -632,6 +888,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 63E11FEA2A30897200137678 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		63E11FFD2A30A6AD00137678 /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63E11FFC2A30A6AD00137678 /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+		63E120002A30A6F000137678 /* SwinjectAutoregistration */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63E11FFF2A30A6F000137678 /* XCRemoteSwiftPackageReference "SwinjectAutoregistration" */;
+			productName = SwinjectAutoregistration;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
