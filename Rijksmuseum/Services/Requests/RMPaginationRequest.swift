@@ -13,8 +13,8 @@ class RMPaginationRequest: RMBaseRequest {
     let s: String
     let involvedMaker: String
     
-    init(p: Int, ps: Int, s: String = "relevance", involvedMaker: String = "Rembrandt van Rijn") {
-        self.p = p
+    init(p: Int, ps: Int, s: String = "artist", involvedMaker: String = "Rembrandt van Rijn") {
+        self.p = p * ps
         self.ps = ps
         self.s = s
         self.involvedMaker = involvedMaker

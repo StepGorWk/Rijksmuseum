@@ -7,8 +7,6 @@
 
 import Foundation
 
-typealias ArtModels = [RMArtModel]
-
 protocol RMGalleryCollectionInteractorProtocol: RMPaginationInteractorProtocol {
     var artObjectSections: [RMArtObjectSection] { get }
     var isFetching: Bool { get }

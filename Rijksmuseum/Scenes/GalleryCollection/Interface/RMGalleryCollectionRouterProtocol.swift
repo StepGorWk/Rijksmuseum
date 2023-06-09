@@ -8,6 +8,7 @@
 import UIKit
 
 protocol RMGalleryCollectionRouterProtocol: AnyObject {
+    var navigationController: RMBaseNavigationController? { get }
     static func createModule() -> UIViewController
-    func navigateToDetail()
+    func navigateToDetail(with artModel: RMArtModel)
 }

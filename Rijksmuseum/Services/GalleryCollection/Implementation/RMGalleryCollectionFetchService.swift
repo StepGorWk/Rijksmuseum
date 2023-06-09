@@ -7,7 +7,7 @@
 
 import Foundation
 
-class RMGalleryCollectionFetchService:BaseNetworkManager, RMGalleryCollectionFetchServiceProtocol {
+class RMGalleryCollectionFetchService: BaseNetworkManager, RMGalleryCollectionFetchServiceProtocol {
     
     func getGalleryCollection<T>(request: RMPaginationRequest, completion: @escaping (Result<T, Error>) -> Void) -> URLSessionDataTask? where T : Decodable {
         var components = URLComponents()

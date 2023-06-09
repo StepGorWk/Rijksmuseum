@@ -16,7 +16,9 @@ extension RMBaseRequest {
     func queryItems() -> [URLQueryItem] {
         var items: [URLQueryItem] = []
         let mirror = Mirror(reflecting: self)
-        items.append(URLQueryItem(name: "key", value: "\(self.key)"))
+        if mirror.superclassMirror != nil {
+            items.append(URLQueryItem(name: "key", value: "\(self.key)"))
+        }
         
         for child in mirror.children {
             if let label = child.label {

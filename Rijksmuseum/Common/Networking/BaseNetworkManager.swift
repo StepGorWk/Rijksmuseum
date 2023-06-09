@@ -8,6 +8,5 @@
 import Foundation
 
 class BaseNetworkManager {
-    
     let session: URLSession = URLSession.init(configuration: .default)
 }
