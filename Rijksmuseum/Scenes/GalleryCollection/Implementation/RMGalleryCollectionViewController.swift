@@ -27,7 +27,6 @@ class RMGalleryCollectionViewController: RMBaseViewController, RMGalleryCollecti
         collectionView.delegate = self
         return collectionView
     }()
-    private var visibleItemIndexPaths: [IndexPath] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,7 +44,7 @@ class RMGalleryCollectionViewController: RMBaseViewController, RMGalleryCollecti
         collectionView.backgroundColor = .backgroundColor
         
         collectionView.snp.remakeConstraints { make in
-            make.top.equalToSuperview()
+            make.top.equalTo(view.safeAreaLayoutGuide.snp.top)
             make.bottom.equalToSuperview()
             make.left.equalToSuperview()
             make.right.equalToSuperview()
