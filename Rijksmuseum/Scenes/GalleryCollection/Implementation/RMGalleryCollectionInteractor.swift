@@ -32,7 +32,6 @@ class RMGalleryCollectionInteractor: RMPaginationInteractor, RMGalleryCollection
     }
     
     private func getArtModels(request: RMPaginationRequest) {
-        print("page = \(request.p) count = \(request.ps)\n")
          task = service?.getGalleryCollection(request: request, completion: { [weak self] (result:(Result<RMGalleryCollectionModel, Error>)) in
             guard let self = self else { return }
             switch result {
