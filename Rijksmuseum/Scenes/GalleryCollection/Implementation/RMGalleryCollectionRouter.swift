@@ -8,7 +8,8 @@
 import UIKit
 
 class RMGalleryCollectionRouter: RMGalleryCollectionRouterProtocol {
-   
+    var navigationController: RMBaseNavigationController?
+    
     static func createModule() -> UIViewController {
         let galleryCollectionView = RMGalleryCollectionViewController()
         let presenter = RMGalleryCollectionPresenter()
@@ -23,7 +24,9 @@ class RMGalleryCollectionRouter: RMGalleryCollectionRouterProtocol {
         interactor.presenter = presenter
         presenter.interactor = interactor
         
-        return RMBaseNavigationController(rootViewController: galleryCollectionView)
+        let navigationController = RMBaseNavigationController(rootViewController: galleryCollectionView)
+        router.navigationController = navigationController
+        return navigationController
     }
     
     private weak var galleryCollectionView: RMGalleryCollectionViewProtocol?
@@ -32,7 +35,8 @@ class RMGalleryCollectionRouter: RMGalleryCollectionRouterProtocol {
         galleryCollectionView = view
     }
     
-    func navigateToDetail() {
-        
+    func navigateToDetail(with artModel: RMArtModel) {
+        let detailViewController = RMGalleryItemDetailRouter.createModule(with: artModel)
+        navigationController?.pushViewController(detailViewController, animated: true)
     }
 }

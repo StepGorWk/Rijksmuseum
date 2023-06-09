@@ -25,15 +25,14 @@ class RMGalleryCollectionInteractor: RMPaginationInteractor, RMGalleryCollection
     }
     
     override func fetchNextPage() {
-        let request = RMPaginationRequest(p: currentPage + 1, ps: pageSize)
-        getArtModels(request: request)
+        if !isFetching {
+            let request = RMPaginationRequest(p: currentPage + 1, ps: pageSize)
+            getArtModels(request: request)
+        }
     }
     
     private func getArtModels(request: RMPaginationRequest) {
-        if isFetching {
-            return
-        }
-        
+        print("page = \(request.p) count = \(request.ps)\n")
          task = service?.getGalleryCollection(request: request, completion: { [weak self] (result:(Result<RMGalleryCollectionModel, Error>)) in
             guard let self = self else { return }
             switch result {
@@ -50,12 +49,12 @@ class RMGalleryCollectionInteractor: RMPaginationInteractor, RMGalleryCollection
                                 self.artObjectSections.append(artObjectSection)
                             }
                         }
+                        self.currentPage += 1
                     }
                     self.fetchedItems = self.artObjectSections.compactMap { $0.items.count }.reduce(0, +)
-                    self.currentPage = request.p
                     self.presenter?.didFetchData()
                 case .failure(let error):
-                    print(error)
+                    self.presenter?.didFail(with: error)
             }
         })
     }

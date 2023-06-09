@@ -43,6 +43,22 @@
 		63E120302A31B72500137678 /* RMBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E1202F2A31B72500137678 /* RMBaseNavigationController.swift */; };
 		63E120322A31BA1700137678 /* RMBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E120312A31BA1700137678 /* RMBaseViewController.swift */; };
 		63E1203D2A3204A300137678 /* RMGalleryItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E1203C2A3204A300137678 /* RMGalleryItemCell.swift */; };
+		63E1203F2A3228EB00137678 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E1203E2A3228EB00137678 /* UIImageView.swift */; };
+		63E120432A3259FC00137678 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E120422A3259FC00137678 /* String.swift */; };
+		63E120452A328D3F00137678 /* RMGallerySectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E120442A328D3F00137678 /* RMGallerySectionHeader.swift */; };
+		63E120472A328E7600137678 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E120462A328E7600137678 /* UICollectionView.swift */; };
+		63E120492A3299B500137678 /* RMGalleryItemDitailRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E120482A3299B500137678 /* RMGalleryItemDitailRouterProtocol.swift */; };
+		63E1204B2A329A8900137678 /* RMGalleryItemDetailInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E1204A2A329A8900137678 /* RMGalleryItemDetailInteractorProtocol.swift */; };
+		63E1204D2A329B3F00137678 /* RMGalleryItemDetailViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E1204C2A329B3F00137678 /* RMGalleryItemDetailViewProtocol.swift */; };
+		63E1204F2A329BB200137678 /* RMGalleryItemDetailPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E1204E2A329BB200137678 /* RMGalleryItemDetailPresenterProtocol.swift */; };
+		63E120512A329E3300137678 /* RMGalleryItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E120502A329E3300137678 /* RMGalleryItemDetailViewController.swift */; };
+		63E120532A329E4E00137678 /* RMGalleryItemDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E120522A329E4E00137678 /* RMGalleryItemDetailRouter.swift */; };
+		63E120552A329E7700137678 /* RMGalleryItemDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E120542A329E7700137678 /* RMGalleryItemDetailPresenter.swift */; };
+		63E120572A329E8500137678 /* RMGalleryItemDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E120562A329E8500137678 /* RMGalleryItemDetailInteractor.swift */; };
+		63E1205E2A32A35F00137678 /* RMGalleryItemDetailFetchServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E1205D2A32A35F00137678 /* RMGalleryItemDetailFetchServiceProtocol.swift */; };
+		63E120602A32A37300137678 /* RMGalleryItemDetailFetchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E1205F2A32A37300137678 /* RMGalleryItemDetailFetchService.swift */; };
+		63E120622A32A3E400137678 /* RMGalleryItemDetailRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E120612A32A3E400137678 /* RMGalleryItemDetailRequest.swift */; };
+		63E120642A32ACC800137678 /* RMGalleryItemDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E120632A32ACC800137678 /* RMGalleryItemDetailModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +115,22 @@
 		63E1202F2A31B72500137678 /* RMBaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMBaseNavigationController.swift; sourceTree = "<group>"; };
 		63E120312A31BA1700137678 /* RMBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMBaseViewController.swift; sourceTree = "<group>"; };
 		63E1203C2A3204A300137678 /* RMGalleryItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGalleryItemCell.swift; sourceTree = "<group>"; };
+		63E1203E2A3228EB00137678 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		63E120422A3259FC00137678 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		63E120442A328D3F00137678 /* RMGallerySectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGallerySectionHeader.swift; sourceTree = "<group>"; };
+		63E120462A328E7600137678 /* UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
+		63E120482A3299B500137678 /* RMGalleryItemDitailRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGalleryItemDitailRouterProtocol.swift; sourceTree = "<group>"; };
+		63E1204A2A329A8900137678 /* RMGalleryItemDetailInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGalleryItemDetailInteractorProtocol.swift; sourceTree = "<group>"; };
+		63E1204C2A329B3F00137678 /* RMGalleryItemDetailViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGalleryItemDetailViewProtocol.swift; sourceTree = "<group>"; };
+		63E1204E2A329BB200137678 /* RMGalleryItemDetailPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGalleryItemDetailPresenterProtocol.swift; sourceTree = "<group>"; };
+		63E120502A329E3300137678 /* RMGalleryItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGalleryItemDetailViewController.swift; sourceTree = "<group>"; };
+		63E120522A329E4E00137678 /* RMGalleryItemDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGalleryItemDetailRouter.swift; sourceTree = "<group>"; };
+		63E120542A329E7700137678 /* RMGalleryItemDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGalleryItemDetailPresenter.swift; sourceTree = "<group>"; };
+		63E120562A329E8500137678 /* RMGalleryItemDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGalleryItemDetailInteractor.swift; sourceTree = "<group>"; };
+		63E1205D2A32A35F00137678 /* RMGalleryItemDetailFetchServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGalleryItemDetailFetchServiceProtocol.swift; sourceTree = "<group>"; };
+		63E1205F2A32A37300137678 /* RMGalleryItemDetailFetchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGalleryItemDetailFetchService.swift; sourceTree = "<group>"; };
+		63E120612A32A3E400137678 /* RMGalleryItemDetailRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGalleryItemDetailRequest.swift; sourceTree = "<group>"; };
+		63E120632A32ACC800137678 /* RMGalleryItemDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGalleryItemDetailModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +220,9 @@
 			children = (
 				63E11FEE2A309AA100137678 /* UICollor.swift */,
 				63E11FF32A30A08400137678 /* URLSession.swift */,
+				63E1203E2A3228EB00137678 /* UIImageView.swift */,
+				63E120422A3259FC00137678 /* String.swift */,
+				63E120462A328E7600137678 /* UICollectionView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -195,7 +230,7 @@
 		63E11FF02A309FA000137678 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				63E120362A31FE7D00137678 /* RMGalleryItemDitail */,
+				63E120362A31FE7D00137678 /* RMGalleryItemDetail */,
 				63E120022A30B2D900137678 /* GalleryCollection */,
 			);
 			path = Scenes;
@@ -206,6 +241,7 @@
 			children = (
 				63E120252A30D88B00137678 /* Requests */,
 				63E120232A30D81700137678 /* Locator */,
+				63E120582A32A2D400137678 /* GalleryItemDetail */,
 				63E120242A30D84800137678 /* GalleryCollection */,
 			);
 			path = Services;
@@ -260,6 +296,7 @@
 				63E120052A30B33900137678 /* RMGalleryCollectionInteractor.swift */,
 				63E120072A30B3D500137678 /* RMGalleryCollectionPresenter.swift */,
 				63E1200B2A30B75C00137678 /* RMGalleryCollectionModel.swift */,
+				63E120442A328D3F00137678 /* RMGallerySectionHeader.swift */,
 			);
 			path = Implementation;
 			sourceTree = "<group>";
@@ -303,6 +340,7 @@
 			children = (
 				63E1201F2A30D75000137678 /* RMBaseRequest.swift */,
 				63E120262A30D8CA00137678 /* RMPaginationRequest.swift */,
+				63E120612A32A3E400137678 /* RMGalleryItemDetailRequest.swift */,
 			);
 			path = Requests;
 			sourceTree = "<group>";
@@ -317,18 +355,22 @@
 			path = Pagination;
 			sourceTree = "<group>";
 		};
-		63E120362A31FE7D00137678 /* RMGalleryItemDitail */ = {
+		63E120362A31FE7D00137678 /* RMGalleryItemDetail */ = {
 			isa = PBXGroup;
 			children = (
 				63E120382A31FEB800137678 /* Implementation */,
 				63E120372A31FEB000137678 /* Interface */,
 			);
-			path = RMGalleryItemDitail;
+			path = RMGalleryItemDetail;
 			sourceTree = "<group>";
 		};
 		63E120372A31FEB000137678 /* Interface */ = {
 			isa = PBXGroup;
 			children = (
+				63E120482A3299B500137678 /* RMGalleryItemDitailRouterProtocol.swift */,
+				63E1204A2A329A8900137678 /* RMGalleryItemDetailInteractorProtocol.swift */,
+				63E1204C2A329B3F00137678 /* RMGalleryItemDetailViewProtocol.swift */,
+				63E1204E2A329BB200137678 /* RMGalleryItemDetailPresenterProtocol.swift */,
 			);
 			path = Interface;
 			sourceTree = "<group>";
@@ -336,6 +378,36 @@
 		63E120382A31FEB800137678 /* Implementation */ = {
 			isa = PBXGroup;
 			children = (
+				63E120502A329E3300137678 /* RMGalleryItemDetailViewController.swift */,
+				63E120522A329E4E00137678 /* RMGalleryItemDetailRouter.swift */,
+				63E120542A329E7700137678 /* RMGalleryItemDetailPresenter.swift */,
+				63E120562A329E8500137678 /* RMGalleryItemDetailInteractor.swift */,
+				63E120632A32ACC800137678 /* RMGalleryItemDetailModel.swift */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		63E120582A32A2D400137678 /* GalleryItemDetail */ = {
+			isa = PBXGroup;
+			children = (
+				63E1205C2A32A30F00137678 /* Implementation */,
+				63E1205B2A32A30300137678 /* Interface */,
+			);
+			path = GalleryItemDetail;
+			sourceTree = "<group>";
+		};
+		63E1205B2A32A30300137678 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				63E1205D2A32A35F00137678 /* RMGalleryItemDetailFetchServiceProtocol.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		63E1205C2A32A30F00137678 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				63E1205F2A32A37300137678 /* RMGalleryItemDetailFetchService.swift */,
 			);
 			path = Implementation;
 			sourceTree = "<group>";
@@ -482,27 +554,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63E120432A3259FC00137678 /* String.swift in Sources */,
 				63E11FF92A30A1CE00137678 /* Endpoint.swift in Sources */,
+				63E120572A329E8500137678 /* RMGalleryItemDetailInteractor.swift in Sources */,
 				63E11FBC2A3083AE00137678 /* RMGalleryCollectionViewController.swift in Sources */,
+				63E120532A329E4E00137678 /* RMGalleryItemDetailRouter.swift in Sources */,
 				63E120102A30D09800137678 /* RMGalleryCollectionViewProtocol.swift in Sources */,
 				63E11FF72A30A19500137678 /* BaseNetworkManager.swift in Sources */,
 				63E11FB82A3083AE00137678 /* AppDelegate.swift in Sources */,
+				63E120642A32ACC800137678 /* RMGalleryItemDetailModel.swift in Sources */,
 				63E120042A30B31500137678 /* RMGalleryCollectionRouter.swift in Sources */,
 				63E11FFB2A30A5C500137678 /* ServiceLocator.swift in Sources */,
 				63E11FF42A30A08400137678 /* URLSession.swift in Sources */,
+				63E1204D2A329B3F00137678 /* RMGalleryItemDetailViewProtocol.swift in Sources */,
+				63E120512A329E3300137678 /* RMGalleryItemDetailViewController.swift in Sources */,
 				63E120142A30D21300137678 /* RMGalleryCollectionInteractorProtocol.swift in Sources */,
+				63E120492A3299B500137678 /* RMGalleryItemDitailRouterProtocol.swift in Sources */,
 				63E120202A30D75000137678 /* RMBaseRequest.swift in Sources */,
+				63E1204F2A329BB200137678 /* RMGalleryItemDetailPresenterProtocol.swift in Sources */,
+				63E120552A329E7700137678 /* RMGalleryItemDetailPresenter.swift in Sources */,
 				63E120302A31B72500137678 /* RMBaseNavigationController.swift in Sources */,
 				63E120222A30D7AA00137678 /* ServiceLocatorProtocol.swift in Sources */,
 				63E120122A30D0BA00137678 /* RMGalleryCollectionRouterProtocol.swift in Sources */,
 				63E120272A30D8CA00137678 /* RMPaginationRequest.swift in Sources */,
+				63E1205E2A32A35F00137678 /* RMGalleryItemDetailFetchServiceProtocol.swift in Sources */,
 				63E120162A30D29000137678 /* RMGalleryCollectionPresenterProtocol.swift in Sources */,
 				63E11FEF2A309AA100137678 /* UICollor.swift in Sources */,
+				63E1203F2A3228EB00137678 /* UIImageView.swift in Sources */,
 				63E120322A31BA1700137678 /* RMBaseViewController.swift in Sources */,
 				63E1202A2A3105AC00137678 /* RMPaginationInteractorProtocol.swift in Sources */,
+				63E120452A328D3F00137678 /* RMGallerySectionHeader.swift in Sources */,
 				63E1201C2A30D4EA00137678 /* RMGalleryCollectionFetchService.swift in Sources */,
+				63E120622A32A3E400137678 /* RMGalleryItemDetailRequest.swift in Sources */,
+				63E1204B2A329A8900137678 /* RMGalleryItemDetailInteractorProtocol.swift in Sources */,
 				63E1201A2A30D4D200137678 /* RMGalleryCollectionFetchServiceProtocol.swift in Sources */,
 				63E1202C2A31060000137678 /* RMPaginationPresenterProtocol.swift in Sources */,
+				63E120472A328E7600137678 /* UICollectionView.swift in Sources */,
+				63E120602A32A37300137678 /* RMGalleryItemDetailFetchService.swift in Sources */,
 				63E1202E2A310DD300137678 /* RMPaginationInteractor.swift in Sources */,
 				63E1200C2A30B75C00137678 /* RMGalleryCollectionModel.swift in Sources */,
 				63E1203D2A3204A300137678 /* RMGalleryItemCell.swift in Sources */,
@@ -677,6 +765,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M53JBK8HHX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Rijksmuseum/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -707,6 +796,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M53JBK8HHX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Rijksmuseum/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

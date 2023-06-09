@@ -6,15 +6,13 @@
 //
 
 import Foundation
+import UIKit
+
+typealias ArtModelSnapshot = NSDiffableDataSourceSnapshot<String, RMArtModel>
+typealias RMGalleryCollectionPresenterInputProtocol = RMGalleryCollectionInteractorOutputProtocol
 
 protocol RMGalleryCollectionPresenterProtocol: RMPaginationPresenterProtocol {
     func viewDidLoad()
-    func sectionCount() -> Int
-    func numberOfItems(section: Int) -> Int
+    func snapshot() -> ArtModelSnapshot
     func item(at indexPath: IndexPath) -> RMArtModel?
-}
-
-protocol RMGalleryCollectionPresenterOutputProtocol {
-    func didFetchData(artModels: [RMArtModel])
-    func didFail(with error: Error)
 }

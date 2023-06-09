@@ -18,14 +18,6 @@ class RMGalleryCollectionPresenter: RMGalleryCollectionPresenterProtocol {
         interactor?.fetchData()
     }
     
-    func sectionCount() -> Int {
-        interactor?.artObjectSections.count ?? 0
-    }
-    
-    func numberOfItems(section: Int) -> Int {
-        interactor?.artObjectSections[section].items.count ?? 0
-    }
-    
     func item(at indexPath: IndexPath) -> RMArtModel? {
         interactor?.artObjectSections[indexPath.section].items[indexPath.row]
     }
@@ -33,9 +25,21 @@ class RMGalleryCollectionPresenter: RMGalleryCollectionPresenterProtocol {
     func loadMore() {
         interactor?.fetchNextPage()
     }
+    
+    func snapshot() -> ArtModelSnapshot {
+        var snapshot = ArtModelSnapshot()
+        guard let artObjectSections = interactor?.artObjectSections else { return snapshot }
+        
+        snapshot.appendSections(artObjectSections.compactMap { $0.header })
+        
+        for artObjectSection in artObjectSections {
+            snapshot.appendItems(artObjectSection.items, toSection: artObjectSection.header)
+        }
+        return snapshot
+    }
 }
 
-extension RMGalleryCollectionPresenter: RMGalleryCollectionInteractorOutputProtocol {
+extension RMGalleryCollectionPresenter: RMGalleryCollectionPresenterInputProtocol {
 
     func didFetchData() {
         DispatchQueue.main.async { [weak self] in
