@@ -1,14 +1,14 @@
 //
-//  GalleryItemDetailModuleTest.swift
-//  RijksmuseumUITests
+//  GalleryItemDetailPresenterTest.swift
+//  RijksmuseumTests
 //
-//  Created by Gor Stepanyan on 09.06.23.
+//  Created by Gor Stepanyan on 12.06.23.
 //
 
 import XCTest
 @testable import Rijksmuseum
 
-class GalleryItemDetailModuleTest: XCTestCase {
+final class GalleryItemDetailPresenterTest: XCTestCase {
     private var galleryItemDetailView: RMGalleryItemDetailViewProtocol?
     private var galleryItemDetailRouter: RMGalleryItemDetailRouterProtocol?
     private var galleryItemDetailPresenter: (RMGalleryItemDetailPresenterProtocol & RMGalleryItemDetailPresenterInputProtocol)?
@@ -47,15 +47,7 @@ class GalleryItemDetailModuleTest: XCTestCase {
         galleryItemDetailInteractor = interactor
     }
     
-    func test_interactor() -> Void {
-        galleryItemDetailPresenter?.viewDidLoad()
-        let detail = galleryItemDetailInteractor?.detail
-        XCTAssert(detail != nil)
-        let objectNumber = detail?.artObject.objectNumber
-        XCTAssertEqual(objectNumber, "RP-P-OB-12.406")
-    }
-    
-    func test_presenter() -> Void {
+    func test() {
         galleryItemDetailInteractor?.fetchDetail()
         
         let title = galleryItemDetailPresenter?.title

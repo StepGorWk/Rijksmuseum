@@ -18,6 +18,7 @@ enum Host: String {
 
 enum Path: String {
     case collection = "/api/en/collection"
+    case details = "/api/en/collection/%1$@/"
 }
 
 enum HttpMethode: String {

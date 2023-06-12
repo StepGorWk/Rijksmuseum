@@ -118,13 +118,13 @@ extension RMGalleryCollectionViewController: UICollectionViewDelegateFlowLayout 
         let titleHeight = artModel.title.height(for: UIFont.systemFont(ofSize: 18), constrainedWidth: width) + Sizes.inset
         
         guard artModel.hasImage else { return CGSize(width: width, height: titleHeight)}
-         
+        
         let desiredHeight: CGFloat = width / CGFloat(artModel.webImage?.imageRatio ?? 1)
         return CGSize(width: width, height: desiredHeight + titleHeight)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
-         CGSize(width: collectionView.bounds.width, height: Sizes.headerHeight)
+        CGSize(width: collectionView.bounds.width, height: Sizes.headerHeight)
     }
     
     func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {

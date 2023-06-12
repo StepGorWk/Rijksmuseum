@@ -1,14 +1,14 @@
 //
-//  GalleryCollectionModuleTest.swift
-//  RijksmuseumUITests
+//  GalleryCollectionInteractorTest.swift
+//  RijksmuseumTests
 //
-//  Created by Gor Stepanyan on 09.06.23.
+//  Created by Gor Stepanyan on 12.06.23.
 //
 
 import XCTest
 @testable import Rijksmuseum
 
-class GalleryCollectionModuleTest: XCTestCase {
+final class GalleryCollectionInteractorTest: XCTestCase {
     private var galleryCollectionView: RMGalleryCollectionViewProtocol?
     private var galleryCollectionRouter: RMGalleryCollectionRouterProtocol?
     private var galleryCollectionPresenter: (RMGalleryCollectionPresenterProtocol & RMGalleryCollectionPresenterInputProtocol)?
@@ -34,7 +34,7 @@ class GalleryCollectionModuleTest: XCTestCase {
         galleryCollectionInteractor = interactor
     }
     
-    func test_interactor() -> Void {
+    func test() {
         galleryCollectionPresenter?.viewDidLoad()
         var count: Int = galleryCollectionInteractor?.artObjectSections.count ?? 0
         XCTAssert(count == 5)
@@ -46,15 +46,5 @@ class GalleryCollectionModuleTest: XCTestCase {
         XCTAssert(count == 9)
         page = galleryCollectionInteractor?.currentPage ?? 0
         XCTAssert(page == 1)
-    }
-    
-    func test_presenter() -> Void {
-        galleryCollectionInteractor?.fetchData()
-        
-        let snapshot = galleryCollectionPresenter?.snapshot()
-        XCTAssert(snapshot?.numberOfItems != 0)
-        
-        let item = galleryCollectionPresenter?.item(at: IndexPath(row: 0, section: 0))
-        XCTAssert(item != nil)
     }
 }
