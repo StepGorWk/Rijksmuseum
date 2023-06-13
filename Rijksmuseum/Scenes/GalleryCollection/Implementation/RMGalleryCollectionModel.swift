@@ -46,12 +46,6 @@ struct RMArtModelLinks: Decodable {
         case web
         case origin = "self"
     }
-    
-    init(from decoder: Decoder) throws {
-        let container = try decoder.container(keyedBy: CodingKeys.self)
-        web = try? container.decode(String.self, forKey: .web)
-        origin = try? container.decode(String.self,  forKey: .origin)
-    }
 }
 
 struct RMArtModelImage: Decodable {

@@ -44,7 +44,7 @@ class RMGalleryItemDetailViewController: RMBaseViewController, RMGalleryItemDeta
         view.addSubview(loadingIndicator)
         
         imageView.snp.remakeConstraints { make in
-            make.top.equalToSuperview()
+            make.top.equalTo(view.safeAreaLayoutGuide.snp.top)
             make.left.equalToSuperview().offset(Sizes.offset)
             make.right.equalToSuperview().offset(-Sizes.offset)
             make.height.equalTo(0)
@@ -78,7 +78,5 @@ class RMGalleryItemDetailViewController: RMBaseViewController, RMGalleryItemDeta
         imageView.sd_setImage(with: imageUrl)
     }
     
-    func showError(_ message: String) {
-        
-    }
+    func showError(_ message: String) { }
 }

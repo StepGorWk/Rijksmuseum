@@ -1,0 +1,326 @@
+
+{
+  "elapsedMilliseconds": 109,
+  "artObject": {
+    "links": {
+      "search": "http://www.rijksmuseum.nl/api/nl/collection"
+    },
+    "id": "en-RP-P-OB-12.406",
+    "priref": "36961",
+    "objectNumber": "RP-P-OB-12.406",
+    "language": "en",
+    "title": "The artist's mother in a cloth headdress, looking down: head only",
+    "copyrightHolder": null,
+    "webImage": {
+      "guid": "c14f2b0a-378d-44ed-a12f-d43dcd4f7292",
+      "offsetPercentageX": 50,
+      "offsetPercentageY": 50,
+      "width": 1432,
+      "height": 1698,
+      "url": "https://lh4.ggpht.com/zS3LYjbODjv2TLv8Gw74rj4rT28AVONSMBds3X6N0oQ3EzlesXMdVb3ist4cjLS55Xd0qK5JwgMCLgcmABMpWRQFQQ=s0"
+    },
+    "colors": [
+      {
+        "percentage": 31,
+        "hex": "#CCC5AF"
+      },
+      {
+        "percentage": 28,
+        "hex": " #A5A08E"
+      },
+      {
+        "percentage": 16,
+        "hex": " #E2DECD"
+      },
+      {
+        "percentage": 10,
+        "hex": " #7E7A6B"
+      },
+      {
+        "percentage": 8,
+        "hex": " #646154"
+      },
+      {
+        "percentage": 3,
+        "hex": " #48463D"
+      },
+      {
+        "percentage": 1,
+        "hex": " #F9F7E8"
+      }
+    ],
+    "colorsWithNormalization": [
+      {
+        "originalHex": "#CCC5AF",
+        "normalizedHex": "#FBF6E1"
+      },
+      {
+        "originalHex": " #A5A08E",
+        "normalizedHex": "#E0CC91"
+      },
+      {
+        "originalHex": " #E2DECD",
+        "normalizedHex": "#FBF6E1"
+      },
+      {
+        "originalHex": " #7E7A6B",
+        "normalizedHex": "#737C84"
+      },
+      {
+        "originalHex": " #646154",
+        "normalizedHex": "#737C84"
+      },
+      {
+        "originalHex": " #48463D",
+        "normalizedHex": "#2F4F4F"
+      },
+      {
+        "originalHex": " #F9F7E8",
+        "normalizedHex": "#FBF6E1"
+      }
+    ],
+    "normalizedColors": [
+      {
+        "percentage": 31,
+        "hex": "#FAEBD7"
+      },
+      {
+        "percentage": 28,
+        "hex": " #A9A9A9"
+      },
+      {
+        "percentage": 16,
+        "hex": " #FDF5E6"
+      },
+      {
+        "percentage": 11,
+        "hex": " #696969"
+      },
+      {
+        "percentage": 10,
+        "hex": " #808080"
+      },
+      {
+        "percentage": 1,
+        "hex": " #FFFFF0"
+      }
+    ],
+    "normalized32Colors": [
+      {
+        "percentage": 49,
+        "hex": "#FBF6E1"
+      },
+      {
+        "percentage": 28,
+        "hex": " #E0CC91"
+      },
+      {
+        "percentage": 18,
+        "hex": " #737C84"
+      },
+      {
+        "percentage": 3,
+        "hex": " #2F4F4F"
+      }
+    ],
+    "materialsThesaurus": [
+      
+    ],
+    "techniquesThesaurus": [
+      
+    ],
+    "productionPlacesThesaurus": [
+      
+    ],
+    "titles": [
+      "The artist's mother in a cloth headdress, looking down: head only"
+    ],
+    "description": null,
+    "labelText": null,
+    "objectTypes": [
+      "print"
+    ],
+    "objectCollection": [
+      "prints"
+    ],
+    "makers": [
+      
+    ],
+    "principalMakers": [
+      {
+        "name": "anonymous",
+        "unFixedName": "anonymous",
+        "placeOfBirth": null,
+        "dateOfBirth": null,
+        "dateOfBirthPrecision": null,
+        "dateOfDeath": null,
+        "dateOfDeathPrecision": null,
+        "placeOfDeath": null,
+        "occupation": [
+          
+        ],
+        "roles": [
+          "print maker"
+        ],
+        "nationality": null,
+        "biography": null,
+        "productionPlaces": [
+          
+        ],
+        "qualification": null,
+        "labelDesc": "anonymous"
+      },
+      {
+        "name": "Rembrandt van Rijn",
+        "unFixedName": "Rijn, Rembrandt van",
+        "placeOfBirth": "Leiden",
+        "dateOfBirth": "1606-07-15",
+        "dateOfBirthPrecision": null,
+        "dateOfDeath": "1669-10-08",
+        "dateOfDeathPrecision": null,
+        "placeOfDeath": "Amsterdam",
+        "occupation": [
+          "print maker",
+          "draughtsman",
+          "painter"
+        ],
+        "roles": [
+          "after print by"
+        ],
+        "nationality": "Noord-Nederlands",
+        "biography": null,
+        "productionPlaces": [
+          
+        ],
+        "qualification": null,
+        "labelDesc": "Rembrandt van Rijn (15-jul-1606 - 08-okt-1669)"
+      }
+    ],
+    "plaqueDescriptionDutch": null,
+    "plaqueDescriptionEnglish": null,
+    "principalMaker": "anonymous",
+    "artistRole": null,
+    "associations": [
+      
+    ],
+    "acquisition": {
+      "method": "transfer",
+      "date": "1816-01-01T00:00:00",
+      "creditLine": null
+    },
+    "exhibitions": [
+      
+    ],
+    "materials": [
+      "paper"
+    ],
+    "techniques": [
+      "etching"
+    ],
+    "productionPlaces": [
+      
+    ],
+    "dating": {
+      "presentingDate": "after 1633",
+      "sortingDate": 1633,
+      "period": 17,
+      "yearEarly": 1633,
+      "yearLate": 1633
+    },
+    "classification": {
+      "iconClassIdentifier": [
+        "61BB2"
+      ],
+      "iconClassDescription": [
+        "historical persons - BB - woman"
+      ],
+      "motifs": [
+        
+      ],
+      "events": [
+        
+      ],
+      "periods": [
+        
+      ],
+      "places": [
+        
+      ],
+      "people": [
+        "Zuytbrouck, Neeltje Willemsdr."
+      ],
+      "objectNumbers": [
+        "RP-P-OB-12.406"
+      ]
+    },
+    "hasImage": true,
+    "historicalPersons": [
+      "Zuytbrouck, Neeltje Willemsdr."
+    ],
+    "inscriptions": [
+      
+    ],
+    "documentation": [
+      
+    ],
+    "catRefRPK": [
+      "New Hollstein Dutch and Flemish (Rembrandt text) 121",
+      "121"
+    ],
+    "principalOrFirstMaker": "anonymous, Rembrandt van Rijn",
+    "dimensions": [
+      {
+        "unit": "mm",
+        "type": "height",
+        "precision": null,
+        "part": null,
+        "value": "50"
+      },
+      {
+        "unit": "mm",
+        "type": "width",
+        "precision": null,
+        "part": null,
+        "value": "41"
+      }
+    ],
+    "physicalProperties": [
+      
+    ],
+    "physicalMedium": "etching",
+    "longTitle": "The artist's mother in a cloth headdress, looking down: head only, anonymous, Rembrandt van Rijn, after 1633",
+    "subTitle": "h 50mm × w 41mm",
+    "scLabelLine": "anonymous, after 1633, etching",
+    "label": {
+      "title": null,
+      "makerLine": null,
+      "description": null,
+      "notes": null,
+      "date": null
+    },
+    "showImage": true,
+    "location": null
+  },
+  "artObjectPage": {
+    "id": "en-RP-P-OB-12.406",
+    "similarPages": [
+      
+    ],
+    "lang": "en",
+    "objectNumber": "RP-P-OB-12.406",
+    "tags": [
+      
+    ],
+    "plaqueDescription": null,
+    "audioFile1": null,
+    "audioFileLabel1": null,
+    "audioFileLabel2": null,
+    "createdOn": "0001-01-01T00:00:00",
+    "updatedOn": "0001-01-01T00:00:00",
+    "adlibOverrides": {
+      "titel": null,
+      "maker": null,
+      "etiketText": null
+    }
+  }
+}

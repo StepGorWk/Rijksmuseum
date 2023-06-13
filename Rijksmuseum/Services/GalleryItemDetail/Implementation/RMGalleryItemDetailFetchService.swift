@@ -13,7 +13,7 @@ class RMGalleryItemDetailFetchService: BaseNetworkManager, RMGalleryItemDetailFe
         var components = URLComponents()
         components.scheme = Schem.https.rawValue
         components.host = Host.rijksmuseum.rawValue
-        components.path = Path.collection.rawValue + "/" + objectNumber + "/"
+        components.path = String(format: Path.details.rawValue, objectNumber)
         components.queryItems = RMBaseRequest().queryItems()
         return session.execute(components: components, completion: completion)
     }
